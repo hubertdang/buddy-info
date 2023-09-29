@@ -15,6 +15,10 @@ public class AddressBook {
         buddyList.remove(buddy);
     }
 
+    public void testMethod() {
+        System.out.println("testing testing testing");
+    }
+
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "613");
         AddressBook addressBook = new AddressBook();
